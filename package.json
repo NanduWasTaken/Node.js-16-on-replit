@@ -1,0 +1,27 @@
+{
+  "name": "icyskybluegravity",
+  "version": "1.0.0",
+  "description": "First of all, click on the \"Lock\" icon in the tab on the left. It will show you your repl's secrets. On this tab, add a new secret, set its name to `TOKEN` and its value to your discord bot token from the [discord developer dashboard](https://discord.com/developers/applications). Optionally, move to `index.js` and edit lines 6-12 (client configuration) as it suits you. Your bot is ready to launch!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NanduWasTaken/Node.js-16-on-replit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NanduWasTaken/Node.js-16-on-replit/issues"
+  },
+  "homepage": "https://github.com/NanduWasTaken/Node.js-16-on-replit#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "colour": "^0.7.1",
+    "discord.js": "^13.6.0",
+    "express": "^4.17.2"
+  }
+}
